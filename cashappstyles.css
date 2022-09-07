@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #040406;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    flex-direction:column;
+
+}
+hr
+{
+  background-color: inherit;
+  border-style: solid none none;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+}
+.copyfield{
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 0px;
+}
+.copyfield2{
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 0px;
+}
+
+#link{
+    width: 350px;
+    padding: 12px 10px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 0px;
+    font-size: 19px;
+    overflow-x: scroll;
+}
+#link::-webkit-scrollbar{
+    display: none;
+}
+#link2{
+    width: 350px;
+    padding: 12px 10px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 0px;
+    font-size: 19px;
+    overflow-x: scroll;
+}
+#link2::-webkit-scrollbar{
+    display: none;
+}
+#copy-btn{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#copy-btn2{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
